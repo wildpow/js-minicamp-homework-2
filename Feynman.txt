@@ -1,0 +1,24 @@
+1. The 'for' keyword let you repeat or loop over an action as many times as you would like.
+Lets say you want to print "hello" to the screen:
+console.log('hello');
+what if you wanted to print it 3 times?
+ console.log('hello');console.log('hello');console.log('hello');
+ not very DRY is it?
+
+ A for loop does this without you having to repeat your self.
+Basic setup is:
+for(start, condition, increment){
+  console.log('hello');
+}
+
+2. For more complex question we can use the '&&', '||', '!' in our statements. '&&' stands for 'and' like: are you 12 and learning to program? If you can answer yes to both then this statement is true. The '||' stands of 'or' like: Do you like baseball or basketball? if you answer yes to one then this statement is true. Finally we have the '!' operator and this means 'not' which sounds weird but, bear with me. Do you not like tomatoes? If you don't like them then this would be true and if you do this statement would be false.
+
+3. Arrays are ordered lists of items. Each item has a number or index associated with it to help you easily find something your looking for.
+Arrays look like this:
+[1,2,3] or ['Hello','goodbye'] or [true, false, NaN]
+To find an item in an array you can use the index and since computers count from 0 the first item in an array would be zero. You use the same brackets to find the item so in an array like:
+[1,2,3] you would say array[0] to find the number one or array[2] to find the number 3. Just make sure you don't call a index that doesn't exist it maybe be "undefined"!!!!!
+
+4. Git is a 'version control system'!!! Which really only means an unlimited undo button kind of like in a text editor when you undo deleting your homework. Git lets you see the entire history of your code from the beginning so you never delete your homework :-)
+
+5. Github takes Git version control to the internet and allows you to show your code to the world. Now if someone whats to help you with your code, they can download a copy change it and send it back to Github and since you own your code you could keep the changes or go back to your original copy. It's like a social network code and coders making the world better and funner on pull request at a time.
